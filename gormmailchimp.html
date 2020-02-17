@@ -1,0 +1,20 @@
+
+	<form action="<?php echo site_url() ?>/wp-admin/admin-ajax.php" id="mailchimp">
+<div class="bz-subscribe__input-box">
+<input type="email" name="email" class="bz-subscribe__input " required placeholder="Email" />
+<input type="hidden" name="action" value="mailchimpsubscribe" />
+	<!-- we need action parameter to receive ajax request in WordPress -->
+	
+<button type="submit" class="send-email" >
+  <span class="bz-subscribe__btn">
+  <!-- add class .loading to activate loading spinner-->
+					<span class="bz-subscribe__btn-text">Підписатися</span>
+					<img src="/wp-content/themes/bazilik/images/dist/icons/ic-loading.svg" alt="" class="bz-subscribe__btn-icon">
+				</span> </button>
+				
+				
+				<span class="bz-subscribe__message">Невiрно заповнне поле</span> <!-- сообщение валидации -->
+				
+				
+				</div>
+</form>
