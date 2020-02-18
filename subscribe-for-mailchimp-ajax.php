@@ -7,7 +7,7 @@
  * Author:      v.chuy
  * Version:      1.00
  *
- * Text Domain: sfma
+ * Text Domain: subfma
  * Domain Path: /languages
  *
  *
@@ -17,6 +17,7 @@
  *
  */
 
+
 include_once( plugin_dir_path( __FILE__ ) . 'backend/settings.php' );
 
 
@@ -24,6 +25,3 @@ include_once( plugin_dir_path( __FILE__ ) . 'backend/api.php' );
 
 
 include_once( plugin_dir_path( __FILE__ ) . 'frontend/form.php' );
-
-
-

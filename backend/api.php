@@ -4,13 +4,11 @@
  */
 
 
-$secret_key_huntrewievs = get_option('secret_key_huntrewievs');
-
 $email = get_option('email_sfma');
 $status = 'subscribed'; // "subscribed" or "unsubscribed" or "cleaned" or "pending"
 $list_id = get_option('list_id_sfma');
 $api_key = get_option('api_key_sfma');
-$merge_fields = array('FNAME' => 'testwwer','LNAME' => 'test2werwer');
+$merge_fields = array('FNAME' => ' ','LNAME' => ' ');
 
 function sfma_subscriber_status( $email, $status, $list_id, $api_key, $merge_fields = array('FNAME' => '','LNAME' => '') ){
 
