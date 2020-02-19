@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Subscribe for mailchimp ajax
- * Description: Plugin to display reviews about freelancer
+ * Description: Plugin to subscribe mailchimp with ajax
  * Plugin URI:  https://www.vchuy-develop.com/subscribe-for-mailchimp-ajax/
  * Author URI:  https://www.vchuy-develop.com/
  * Author:      v.chuy
